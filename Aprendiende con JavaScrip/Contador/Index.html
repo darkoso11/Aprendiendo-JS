@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+</head>
+<body>
+    <div class="contenerdor">
+        <h1 class="titulo">Contador</h1>
+        <p class="contador" id="contar">0</p>
+
+        <div class="botones"> 
+            <button class="incr" id="incr" onclick="editar('añadir')"><span class="material-icons-outlined">add</span></button>
+            <button class="decr" id="decr" onclick="editar('sustraer')"><span class="material-icons-outlined">remove</span></button>
+            <button class="reset" id="reset" onclick="editar('reiniciar')"><span class="material-icons-outlined">Reset</span></button> 
+            <button class="cached" id="cached" onclick="editar('memoria')"><span class="material-icons-outlined">cached</span></button> 
+        </div>
+    </div>
+</body>
+<script src="AprendiendoJS.js"></script>
+</html>
