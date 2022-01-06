@@ -1,0 +1,52 @@
+#contenedor {
+   width: 80vw;
+   height: 80vh;
+   margin: 10vh 10vw;
+   
+}
+
+.imagen {
+    height: 100%;
+    border-radius: 30px;  
+    margin: 0 10px;
+    border: 0 solid transparent;
+    transition: 2s;
+}
+
+.imagen p {
+    visibility: hidden;
+}
+
+.imagen:nth-child(1) {
+    background: url("https://picsum.photos/1000/701");
+    width: calc(7.5% - 20px);
+}
+
+.imagen:nth-child(2) {
+    background: url("https://picsum.photos/1000/702");
+    width: calc(7.5% - 20px);
+}
+
+.imagen:nth-child(3) {
+    background: url("https://picsum.photos/1000/703");
+    width: calc(7.5% - 20px);
+}
+
+.imagen:nth-child(4) {
+    background: url("https://picsum.photos/1000/704");
+    width: calc(7.5% - 20px);
+}
+
+.imagen:nth-child(5) {
+    background: url("https://picsum.photos/1000/705");
+    width: calc(7.5% - 20px);
+}
+
+#contenedor .mainimagen {
+    width: calc(70% - 20px);
+}
+
+#contenedor .mainimagen p {
+    visibility: visible;
+}
+
