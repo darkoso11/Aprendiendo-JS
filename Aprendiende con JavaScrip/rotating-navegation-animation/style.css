@@ -1,0 +1,32 @@
+* {
+  background-color: rgb(255, 213, 205);
+  font-style: none;
+}
+
+.contenedor {
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+#pinguen{
+  width: 75%;
+}
+
+h1, h2 {
+  margin: auto;
+  width: 75%;
+  text-align: left;
+}
+
+small {
+  margin: auto;
+  width: 75%;
+  text-align: left;
+}
+
+p {
+  margin: auto;
+  width: 75%;
+  text-align: left;
+}
