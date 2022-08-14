@@ -1,12 +1,12 @@
 * {
-  background-color: rgb(255, 213, 205);
-  font-style: none;
+  font-style: san-serif;
+  box-sizing: border-box;
 }
 
-.contenedor {
-  padding: 50px;
-  margin: auto;
-  text-align: center;
+body {
+  background-color: #89B394;
+  overflow-x: hidden;
+  margin: 0;
 }
 
 #pinguen{
@@ -29,4 +29,72 @@ p {
   margin: auto;
   width: 75%;
   text-align: left;
+}
+
+#menu {
+  display: flex; 
+  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  top: -150px;
+  left: -150px;
+  z-index: 10;
+
+  background-color: #C99EFF;
+  transform-origin: top left;
+  transition: transform 0.5 linear;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+
+  transform-origin: center;
+  
+  
+}
+
+.rotate-menu {
+  transform: rotate(-90deg);
+
+}
+
+
+#menu #close { 
+  width: 50px;
+  height: 50px;
+  
+}
+
+#menu #open { 
+  width: 50px;
+  height: 50px;
+}
+
+
+#contenido {
+  background-color: rgb(255, 213, 205);
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  transform-origin: top left;
+}
+
+.rotate-contenido {
+  transform: rotate(-22.5deg);
+
+}
+
+#nav {
+  bottom: 0;
+  position: fixed;
+  /* left: -150px; */
+  
+
+}
+
+#nav > ul {
+   list-style-type: none;
 }
